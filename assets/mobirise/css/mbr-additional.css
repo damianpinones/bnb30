@@ -1902,7 +1902,7 @@ a {
 }
 .cid-ss6B8DiVLb .card-icon {
   font-size: 56px;
-  color: #ff3366;
+  color: #e28709e3 !important;
   transition: color 0.3s;
 }
 .cid-ss6B8DiVLb .card-title {
@@ -1923,7 +1923,7 @@ a {
   width: 35px;
   height: 3px;
   display: inline-block;
-  background: #ff3366;
+  background: #e28709e3 !important;
   margin-bottom: 1.5rem;
   transition: background 0.3s;
 }
@@ -1935,7 +1935,7 @@ a {
   transition: background 0.3s;
 }
 .cid-ss6B8DiVLb .card-wrapper:hover {
-  background: #ff3366;
+  background: #e28709e3 !important;
 }
 .cid-ss6B8DiVLb .card-wrapper:hover .card-icon {
   color: #040402;
