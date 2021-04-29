@@ -422,7 +422,7 @@ async function planPercents() {
 			total: 0
 		}
 		let percent = await mainContract.methods.getPercent(i).call()
-		$('#plan'+(i+1)+'Percent')[0].innerHTML = parseFloat(percent/10)+ "%";
+		// $('#plan'+(i+1)+'Percent')[0].innerHTML = parseFloat(percent/10)+ "%";
 		plans[i].percent = percent/10;
 		let c = await mainContract.methods.getPlanInfo(i).call()                   
 		plans[i].totalPercent = $('#plan'+(i+1)+'TPercent')[0].innerHTML = (c.time * plans[i].percent).toFixed(2);
