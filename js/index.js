@@ -413,7 +413,7 @@ async function contractBalances(){
 }
 async function planPercents() {
 	var plans = []
-	for(let i = 0; i < 6; i++){
+	for(let i = 0; i < 1; i++){
 		plans[i] = {
 			percent: 0,
 			totalPercent: 0,
