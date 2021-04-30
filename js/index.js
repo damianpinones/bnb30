@@ -318,13 +318,13 @@ async function getUserDepositInfo() {
 	
 	$('.active-stakes')[0].innerHTML = `
 	<tr class="container-fluid">
-	<td colspan="3"id="getUserDepositInfo1" style="color:red;margin-left: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Plan</td>
-	<td colspan="3"id="getUserDepositInfo2" style="color:red;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Percent</td>
-	<td colspan="3"id="getUserDepositInfo3" style="color:red;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Amount</td>
-	<td colspan="3"id="getUserDepositInfo4" style="color:red;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Profit</td>
-	<td colspan="3"id="getUserDepositInfo5" style="color:red;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Start</td>
-	<td colspan="3"id="getUserDepositInfo6" style="color:red;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Finish</td>
-	<td colspan="3"id="getUserDepositInfo6" style="color:white;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Status</td>
+	<td colspan="3"id="getUserDepositInfo1" style="color:#e28709e3;margin-left: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Plan</td>
+	<td colspan="3"id="getUserDepositInfo2" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Percent</td>
+	<td colspan="3"id="getUserDepositInfo3" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Amount</td>
+	<td colspan="3"id="getUserDepositInfo4" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Profit</td>
+	<td colspan="3"id="getUserDepositInfo5" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Start</td>
+	<td colspan="3"id="getUserDepositInfo6" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Finish</td>
+	<td colspan="3"id="getUserDepositInfo6" style="color:#e28709e3;margin-right: 400px;" class="heading mbr-card-title mbr-fonts-style display-5">Status</td>
 	
 </tr>
 	`
@@ -352,7 +352,7 @@ async function getUserDepositInfo() {
 				<td colspan="3"id="getUserDepositInfo4" style="margin-right: 400px;padding-right: 40px;" class="mbr-content-title mbr-light mbr-fonts-style display-7">${web3.utils.fromWei(data[3], "ether")}</td>
 				<td colspan="3"id="getUserDepositInfo5" style="margin-right: 400px;padding-right: 40px;" class="mbr-content-title mbr-light mbr-fonts-style display-7">${start}</td>
 				<td colspan="3"id="getUserDepositInfo6" style="margin-right: 400px;padding-right: 40px;"class="mbr-content-title mbr-light mbr-fonts-style display-7">${end}</td>
-				<td colspan="3"id="isFinished" style="color:red;margin-right: 400px;padding-right: 40px;"class="mbr-content-title mbr-light mbr-fonts-style display-7">${isFinished}</td>
+				<td colspan="3"id="isFinished" style="color:#e28709e3;margin-right: 400px;padding-right: 40px;"class="mbr-content-title mbr-light mbr-fonts-style display-7">${isFinished}</td>
 			</tr>
 		`
 		$('.active-stakes')[0].innerHTML += newRow;
